@@ -1,0 +1,6 @@
+<form fxLayout="column" class="wishlist-create-form"></form>
+<mat-form-field fxFlex appearance="fill">
+  <mat-label>Title</mat-label>
+  <input type="text" name="title" matInput [(ngModel)]="item.title">
+  <button mat-button="primary" (click)="addItem()"></button>
+</mat-form-field>
